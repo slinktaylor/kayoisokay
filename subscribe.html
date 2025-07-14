@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>subscribe - okaykayo</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="subscribe-page">
+    <div class="floating-elements">
+        <div class="flower flower-1">🌸</div>
+        <div class="flower flower-2">🌺</div>
+        <div class="flower flower-3">🌷</div>
+        <div class="butterfly butterfly-1">🦋</div>
+        <div class="butterfly butterfly-2">🦋</div>
+    </div>
+
+    <nav class="main-nav">
+        <div class="logo">
+            <a href="index.html">okaykayo</a>
+        </div>
+        <div class="nav-links">
+            <a href="listen.html" class="nav-link">listen</a>
+            <a href="follow.html" class="nav-link">follow</a>
+            <a href="bio.html" class="nav-link">bio</a>
+            <a href="support.html" class="nav-link">support</a>
+            <a href="videos.html" class="nav-link">videos</a>
+            <a href="subscribe.html" class="nav-link active">subscribe</a>
+        </div>
+    </nav>
+
+    <main class="subscribe-content">
+        <h1>stay in the loop</h1>
+        <p class="subscribe-intro">get updates when new music drops, shows pop up, or magic happens</p>
+        
+        <form class="subscription-form" id="subscribeForm">
+            <div class="form-group">
+                <label for="name">your name</label>
+                <input type="text" id="name" name="name" placeholder="what should i call you?" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">email address</label>
+                <input type="email" id="email" name="email" placeholder="where should i send the magic?" required>
+            </div>
+            
+            <button type="submit" class="subscribe-btn">
+                <span>join the journey</span>
+                <span class="btn-sparkle">✨</span>
+            </button>
+        </form>
+        
+        <div class="confirmation-message" id="confirmationMessage" style="display: none;">
+            <h2>welcome to the family! 💕</h2>
+            <p>check your inbox for a little welcome note</p>
+            <div class="success-butterflies">
+                <span class="butterfly-fly">🦋</span>
+                <span class="butterfly-fly">🦋</span>
+                <span class="butterfly-fly">🦋</span>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
