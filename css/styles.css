@@ -205,6 +205,7 @@ main {
 .homepage {
     justify-content: center;
     text-align: center;
+    padding-top: 0;
 }
 
 .main-logo {
